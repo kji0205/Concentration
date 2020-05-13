@@ -13,6 +13,8 @@
 		BF68EFC2246C0443000B25EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF68EFC0246C0443000B25EF /* Main.storyboard */; };
 		BF68EFC4246C0448000B25EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF68EFC3246C0448000B25EF /* Assets.xcassets */; };
 		BF68EFC7246C0448000B25EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF68EFC5246C0448000B25EF /* LaunchScreen.storyboard */; };
+		BF68EFD0246C3263000B25EF /* Concentration.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF68EFCF246C3263000B25EF /* Concentration.swift */; };
+		BF68EFD2246C32D8000B25EF /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF68EFD1246C32D8000B25EF /* Card.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		BF68EFC3246C0448000B25EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF68EFC6246C0448000B25EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF68EFC8246C0448000B25EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF68EFCF246C3263000B25EF /* Concentration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Concentration.swift; sourceTree = "<group>"; };
+		BF68EFD1246C32D8000B25EF /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				BF68EFCE246C051F000B25EF /* Supporting Files */,
+				BF68EFD1246C32D8000B25EF /* Card.swift */,
+				BF68EFCF246C3263000B25EF /* Concentration.swift */,
 				BF68EFBE246C0443000B25EF /* ViewController.swift */,
 				BF68EFC0246C0443000B25EF /* Main.storyboard */,
 				BF68EFC8246C0448000B25EF /* Info.plist */,
@@ -147,6 +153,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF68EFBF246C0443000B25EF /* ViewController.swift in Sources */,
+				BF68EFD0246C3263000B25EF /* Concentration.swift in Sources */,
+				BF68EFD2246C32D8000B25EF /* Card.swift in Sources */,
 				BF68EFBB246C0443000B25EF /* AppDelegate.swift in Sources */,
 				BF68EFBD246C0443000B25EF /* SceneDelegate.swift in Sources */,
 			);
