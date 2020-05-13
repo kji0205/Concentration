@@ -56,15 +56,23 @@
 		BF68EFB9246C0443000B25EF /* Concentration */ = {
 			isa = PBXGroup;
 			children = (
-				BF68EFBA246C0443000B25EF /* AppDelegate.swift */,
-				BF68EFBC246C0443000B25EF /* SceneDelegate.swift */,
+				BF68EFCE246C051F000B25EF /* Supporting Files */,
 				BF68EFBE246C0443000B25EF /* ViewController.swift */,
 				BF68EFC0246C0443000B25EF /* Main.storyboard */,
-				BF68EFC3246C0448000B25EF /* Assets.xcassets */,
-				BF68EFC5246C0448000B25EF /* LaunchScreen.storyboard */,
 				BF68EFC8246C0448000B25EF /* Info.plist */,
 			);
 			path = Concentration;
+			sourceTree = "<group>";
+		};
+		BF68EFCE246C051F000B25EF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF68EFBA246C0443000B25EF /* AppDelegate.swift */,
+				BF68EFBC246C0443000B25EF /* SceneDelegate.swift */,
+				BF68EFC3246C0448000B25EF /* Assets.xcassets */,
+				BF68EFC5246C0448000B25EF /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
