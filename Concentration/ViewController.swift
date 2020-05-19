@@ -18,13 +18,26 @@ class ViewController: UIViewController {
     
     private(set) var flipCount = 0 {
         didSet {
-            flipCountLabel.text = "Flips: \(flipCount)"
+            updateFlipCountLabel()
         }
+    }
+    
+    private func updateFlipCountLabel() {
+        let attributes: [NSAttributedString.Key:Any] = [
+            .strokeWidth : 5.0,
+            .strokeColor : #colorLiteral(red: 1, green: 0.5781051517, blue: 0, alpha: 1)
+        ]
+        let attributeString = NSAttributedString(string: "Flips: \(flipCount)", attributes: attributes)
+        flipCountLabel.attributedText = attributeString
     }
     
     @IBOutlet private var cardButtons: [UIButton]!
     
-    @IBOutlet private weak var flipCountLabel: UILabel!
+    @IBOutlet private weak var flipCountLabel: UILabel! {
+        didSet {
+            updateFlipCountLabel()
+        }
+    }
     
     @IBAction private func touchCard(_ sender: UIButton) {
         flipCount += 1
